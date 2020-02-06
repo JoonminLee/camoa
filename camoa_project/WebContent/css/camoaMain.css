@@ -1,0 +1,114 @@
+@charset "EUC-KR";
+body {
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: Times new roman;
+	font-size: 35px;
+}
+
+#secondtop a:hover a:focus a:visited a:active {
+	text-decoration: none;
+}
+
+#secondtop {
+	width: 100%;
+	height: 20px;
+	padding-bottom: 20px;
+	text-align: right;
+	font-fmaily: ¸¼Àº°íµñ;
+	font-size: 10px;
+}
+
+#secondtop div {
+	width: 50%;
+	height: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+#menubar {
+	width: 100%;
+	height: 30px;
+	padding-bottom: 10px;
+}
+
+#menubar div {
+	width: 50%;
+	height: 30px;
+	margin: auto;
+}
+
+#menubar div ul li {
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+	display: inline-flex;
+	padding-left: 40px;
+	font-family: ¸¼Àº°íµñ;
+	font-size: 12px;
+}
+
+#menubar div ul li img {
+	width: 13px;
+	height: 13px;
+}
+
+#menubar div ul li a {
+	text-decoration: none;
+}
+
+#main {
+	background-image: url("../image/111.jpg");
+	background-size: cover;
+	text-align: center;
+	padding-top: 4cm;
+	weight: 100%;
+	height: 450px;
+}
+
+#main div {
+	display: inline;
+	width: 50%;
+	color: white;
+}
+
+#main div #p1 {
+	font-family: Arial;
+	font-size: 50px;
+	text-shadow: 2px 2px #6E6E6E;
+	margin-bottom: -10px;
+}
+
+#main div #p2 {
+	font-family: ¸¼Àº°íµñ;
+	font-size: 24px;
+}
+
+#main div #p3 {
+	font-family: Times new roman;
+	font-size: 20px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+#p3 a:hover a:focus a:visited a:active {
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 230px; text-family : Arial;
+	font-size: 10px;
+	width: 100%;
+	text-family: Arial; font-size : 10px; width : 100%;
+	height: 10px;
+}
+
+footer div {
+	color: white;
+	width: 30%;
+	height: 10px;
+	margin: auto;
+	text-align: center;
+}

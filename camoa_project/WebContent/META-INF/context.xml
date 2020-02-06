@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context reloadable="true">
+	<WatchedResource>WEB-INF/web.xml	</WatchedResource>
+	
+	<Resource name="jdbc:PBoardDB"
+            auth="Container"
+            type="javax.sql.DataSource"
+            username="abc1"
+            password="123123"
+            driverClassName="oracle.jdbc.driver.OracleDriver"
+            url="jdbc:oracle:thin:@localhost:1521:orcl"
+		/>
+
+</Context>
